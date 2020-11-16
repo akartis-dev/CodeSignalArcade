@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Island of Knowledge
+ * Box blur
+ */
 
 function boxBlur($image) {
     $x = count($image[0]) + 1 - 3;
