@@ -1,7 +1,7 @@
 <?php
 /**
  * Rains of Reason
- * Array replace
+ * evenDigitsOnly
  */
 
 function evenDigitsOnly($n) {
