@@ -27,21 +27,18 @@ function isBeautifulString($inputString) {
             if( $alpha_index === 0 &&
                 !array_key_exists($char[$alpha_index + 1], $word)
             ){
-                echo "1";
                 return false;
             }
 
             if( $alpha_index > 0 &&
                 !array_key_exists($char[$alpha_index - 1], $word)
                 ){
-                    echo "2" . $alpha_index;
                     return false;
             }
 
             if($alpha_index < $l_index &&
               !array_key_exists($char[$alpha_index + 1], $word)
             ){
-                echo "3" . $alpha_index;
                 return false;
             }
         }
