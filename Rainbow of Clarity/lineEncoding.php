@@ -28,4 +28,5 @@ function lineEncoding($s){
 
 }
 
-lineEncoding('abbcabb');
+lineEncoding('abbcabb'); //a2bca2b
+lineEncoding('aabbbc'); //2a3bc
